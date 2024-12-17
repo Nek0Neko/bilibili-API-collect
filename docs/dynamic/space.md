@@ -22,7 +22,7 @@
 ## 请求示例
 
 ```shell
-curl -L -X GET 'https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space?host_mid=1'
+curl -L -X GET 'https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space?host_mid=21919321'
 ```
 
 ## 响应示例
