@@ -6,14 +6,18 @@
 
 是否需要登录：`否`
 
+认证方式：Cookie（SESSDATA）或APP
+
+鉴权方式：Wbi 签名
+
 ## URL参数
 
 | 参数名             | 类型  | 必填  | 内容     | 备注  |
 |-----------------|-----|-----|--------|-----|
-| offset          | str |     | 分页偏移量  |     |
+| offset          | str |     | 下一页分页偏移量  |     |
 | host_mid        | str | √   | 用户UID  |     |
-| timezone_offset | num |     | `-480` |     |
-| features        | str |     | itemOpusStyle |  |
+| timezone_offset | num |     | `-480` |  时区偏移量（分钟）   |
+| features        | str |     | 功能 | |
 
 ## Json回复
 
